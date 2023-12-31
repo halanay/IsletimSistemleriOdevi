@@ -37,7 +37,6 @@ public class Main {
             butunProsesler.removeAll(list);
         }
         Printer.FinalReport();
-
         System.out.println("Hello world!");
     }
 }
