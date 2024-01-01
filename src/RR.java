@@ -19,6 +19,7 @@ public class RR {
             if (zaman - proses.VarisZamani >= 20) {
                 Printer.Report(Printer.Durum.HataZaman,proses);
                 prosesler.remove(proses);
+                
             }
         }
     }
